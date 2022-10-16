@@ -1,0 +1,51 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package edad;
+
+/**
+ *
+ * @author Alumno
+ */
+public class Edad {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        /*
+        edad
+        0 - 1 = bebe
+        2 - 11 = niño
+        12 - 16 = puberto
+        17 - 21 = joven
+        22 - n adulto
+        */
+        int edad = 14;
+        
+        if (edad <= 1){
+            
+            System.out.println("******bebe********");
+        }
+        if (edad >=2 && edad <= 11){
+            System.out.println("******niño*******");
+        }
+               
+         if (edad >=12 && edad <= 16){
+            System.out.println("********puberto*******");
+         }    
+            
+         if (edad >=17 && edad <= 21){
+             System.out.println("********joven*********");
+         }   
+             
+        if (edad >=22 && edad <= 50){
+            System.out.println("********adulto********");   
+         }
+}
+            
+            
+      
